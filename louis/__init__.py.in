@@ -58,7 +58,7 @@ try:  # Native win32
     _loader, _functype = windll, WINFUNCTYPE
 except ImportError:  # Unix/Cygwin
     _loader, _functype = cdll, CFUNCTYPE
-liblouis = _loader["liblouis"]
+liblouis = _loader["###LIBLOUIS_SONAME###"]
 _is_windows = platform == "win32"
 
 # { Module Configuration
