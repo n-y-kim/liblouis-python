@@ -34,7 +34,7 @@ classifiers = [
 
 setup(name="louis",
       description=__doc__,
-      download_url = "https://github.com/n-y-kim/louis-python",
+      download_url = "https://github.com/liblouis/liblouis",
       license="LGPLv2.1+",
       classifiers=classifiers,
       version='3.19.0',
