@@ -67,7 +67,7 @@ except NameError:
     # Unix/Cygwin
     _loader = cdll
     _functype = CFUNCTYPE
-liblouis = _loader["liblouis.dylib"]
+liblouis = _loader["liblouis.dll"]
 
 atexit.register(liblouis.lou_free)
 
