@@ -42,8 +42,7 @@
   
   ``` shell
   
-  cp -a liblouis.a /home/ubuntu/anaconda3/envs/pytorch_latest_p37/lib/python3.7/site-packages/louis/
-  cp -a liblouis.so.20 /home/ubuntu/anaconda3/envs/pytorch_latest_p37/lib/python3.7/site-packages/louis/
+  cp -a liblouis* /home/ubuntu/anaconda3/envs/pytorch_latest_p37/lib/python3.7/site-packages/louis/
   
   ```
   
