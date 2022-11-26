@@ -1,6 +1,7 @@
 # How to use: Added by @n-y-kim
+<strong>‼️DO NOT DOWNLOAD OR CLONE THIS REPO! THIS IS READ ONLY FOR PYTHON USERS‼️</strong>
 <ol>
-  <li>Download the most recent release version from <a href="https://github.com/liblouis/liblouis">liblouis</a> repo.(zip file)</li>
+  <li>Download the most recent release version from <a href="https://github.com/liblouis/liblouis">liblouis</a> repo.(zip file)</li> 
   <li>Check your environment. <code>import louis</code> is not supportable at <code>arm64</code> architecture(v 3.21.0). Only <code>x86_64</code> would be able to get the correct path.</li>
   <li>Unzip your installed file.</li>
   <li>RUN <code>./configure</code></li>
